@@ -1,0 +1,22 @@
+{
+  "name": "ayugram-website",
+  "version": "1.0.0",
+  "description": "Official website for Ayugram - Enhanced Telegram client",
+  "main": "index.html",
+  "scripts": {
+    "start": "lite-server",
+    "build:ts": "tsc",
+    "watch:ts": "tsc --watch"
+  },
+  "keywords": [
+    "ayugram",
+    "telegram",
+    "messenger"
+  ],
+  "author": "Ayugram Team",
+  "license": "MIT",
+  "devDependencies": {
+    "lite-server": "^2.6.1",
+    "typescript": "^4.9.5"
+  }
+}
